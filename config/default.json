@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://Sfimadi:sellingzgs@cluster0-kerkd.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken"
+}
