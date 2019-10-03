@@ -5,9 +5,13 @@ const ProfileSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'user'
     },
-    username: {
+    email: {
         type: String,
-        required: true
+        required: true,
+    },
+    level: {
+        type: String,
+        required: true,
     },
     location: {
         type: String,

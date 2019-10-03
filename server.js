@@ -17,6 +17,8 @@ app.get('/', (req, res) => res.send("API Running"))
 // GET Routes
 
 app.use('/api/foods', require('./routes/api/foods'))
+app.use('/api/exercises', require('./routes/api/exercises'))
+app.use('/api/workouts', require('./routes/api/workouts'))
 app.use('/api/users', require('./routes/api/users'))
 app.use('/api/auth', require('./routes/api/auth'))
 app.use('/api/profile', require('./routes/api/profile'))
